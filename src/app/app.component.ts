@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -6,15 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'parksAndRec';
+  zipcode;
 
   submit() {
     console.log('submit button clicked');
+    console.log(this.zipcode);
+
+
+
+
+
+
   }
 
 
 
-
 }
-
-
