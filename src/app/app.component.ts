@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
 export class AppComponent {
 
   title = 'parksAndRec';
-  zipcode;
+  zipcode = '';
 
   submit() {
     console.log('submit button clicked');
