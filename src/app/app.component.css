@@ -17,7 +17,7 @@ h1 {
   margin-bottom: 0;
   position: absolute;
   top: 5px;
-  right: 100px;
+  right: 175px;
 
 }
 
@@ -30,6 +30,6 @@ h1 {
 
 .zelda {
   margin-top: -50em;
-  margin-left: 20em;
-  max-width: 30%;
+  margin-left: 25em;
+  max-width: 25%;
 }
