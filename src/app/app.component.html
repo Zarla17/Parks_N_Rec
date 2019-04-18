@@ -1,16 +1,25 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
+
   <h1>
     Parks&nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;Rec
   </h1>
-  <img width="300" alt="Zelda Shield" src="../assets/images/shield.png">
-  <label>Zip Code</label>
-  <input type="text" class="form-control" name="zipcode" [(ngModel)]="zipcode">
+</div>
+<div>
+  <img class="background" src="../assets/images/park.jpg" />
 
-  <button mat-button (click)="submit()" [disabled]="zipcode.length !=5">Search</button>
-  <!-- </div>
+  <img align="center" class="zelda" alt="Zelda Shield" src="../assets/images/shield.png">
+</div>
+
+
+
+<label>Zip Code</label>
+<input type="text" class="form-control" name="zipcode" [(ngModel)]="zipcode">
+
+<button mat-button (click)="submit()" [disabled]="zipcode.length !=5">Search</button>
+<!-- </div>
 <h2>Here are some links to help you start: </h2> -->
-  <!-- <ul>
+<!-- <ul>
   <li>
     <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
   </li>
