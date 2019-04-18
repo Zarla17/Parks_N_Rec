@@ -1,17 +1,35 @@
+header {
+  margin-top: 0;
+  margin-bottom: -30;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
 h1 {
   font-family: "Faster One";
   font-size: 80px;
-  color: purple;
+  color: lime;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 5px;
+  right: 100px;
 
 }
 
 .background {
   width: 100%;
 
+
+
 }
 
 .zelda {
   margin-top: -50em;
-  margin-left: 30em;
+  margin-left: 20em;
   max-width: 30%;
 }
