@@ -1,12 +1,6 @@
-header {
-  margin-top: 0;
-  margin-bottom: -30;
-}
-
 .container {
   position: relative;
   text-align: center;
-
 }
 
 h1 {
@@ -18,18 +12,28 @@ h1 {
   position: absolute;
   top: 5px;
   right: 175px;
-
 }
 
 .background {
   width: 100%;
-
-
-
 }
 
 .zelda {
   margin-top: -50em;
   margin-left: 25em;
   max-width: 25%;
+}
+
+label {
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+  width: 25%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px dashed red;
 }
